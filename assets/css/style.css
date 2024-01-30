@@ -1,0 +1,338 @@
+﻿/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.set-pad {
+    padding-top: 35px;
+}
+
+.set-row-pad {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+/*=====================================
+  NAVBAR STYLES 
+    ===================================*/
+
+.logo-custom {
+    max-height: 40px;
+}
+
+#menu {
+    background-color: #e6e6e6;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    min-height: 70px;
+}
+
+.navbar-inverse {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #dd4b39;
+    padding: 22px 10px;
+}
+
+.navbar-nav>li>a:hover {
+    color: rgba(36, 48, 76, 0.68);
+    padding: 22px 10px;
+}
+
+
+/*=====================================
+  HOME STYLES 
+    ===================================*/
+
+.home-sec {
+    /*background-image: url('../img/header.jpg');*/
+    /*background-image: url('../img/conecton-web-screen.png');*/
+    background-image: url('../img/web-screen.png');
+    padding-top: 10px;
+    padding-bottom: 60px;
+    /*background: url(../img/header.jpg) no-repeat center center;*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.home-sec .overlay {
+    background: rgba(36, 48, 76, 0.68);
+    min-height: 550px;
+}
+
+.home-sec h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase;
+    /* padding-bottom: 35px;*/
+}
+
+.home-sec h3 {
+    text-transform: uppercase;
+}
+
+.set-flexi {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    background-color: transparent;
+    border: 0px solid #000;
+    padding-top: 120px;
+}
+
+.flex-control-nav {
+    display: none!important;
+}
+
+.set-flexi a {
+    margin: 5px;
+}
+
+
+/*=====================================
+  TAG LINE STYLES 
+    ===================================*/
+
+.tag-line {
+    background: #E9E9E9;
+    color: #000;
+}
+
+.tag-line h2 {
+    font-size: 15px;
+    font-weight: 900;
+    padding: 5px 10px 10px 5px;
+    color: #dd4b39;
+}
+
+.tag-line h2>i {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+/*=====================================
+  HEADER LINE STYLES 
+    ===================================*/
+
+.header-line {
+    font-weight: 900;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #dd4b39;
+}
+
+h1::after {
+    content: " ";
+    border: solid 2px #dd4b39;
+    display: block;
+    width: 200px;
+    margin: 12px auto;
+}
+
+
+/*=====================================
+  ABOUT STYLES 
+  ===================================*/
+
+.about-div {
+    padding: 30px;
+}
+
+.icon-round-border {
+    /*border: 10px double #dd4b39;
+    color: #dd4b39;*/
+    text-align: center;
+    padding-top: 7px;
+    height: 60px;
+    width: 60px;
+    border-radius: 0%;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    color: #dd4b39;
+}
+
+.icon-round-border:hover {
+    color: #333;
+}
+
+
+/*.icon-round-border:hover {
+        
+        color: #fff;
+        border: 10px double #fff;
+        background-color: #dd4b39;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }*/
+
+
+/*.about-div hr {
+    border: 1px solid #1A94C4;
+}*/
+
+.about-div h3 {
+    font-size: 15px;
+    font-weight: 650;
+    text-transform: uppercase;
+}
+
+.about-div p {
+    padding-top: 10px;
+}
+
+.btn-set {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    margin-bottom: 20px;
+}
+
+
+/*=====================================
+ PRICE STYLES 
+  ===================================*/
+
+
+/*=====================================
+  CONTACT STYLES 
+  ===================================*/
+
+#contact-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    /*background: url(../img/contact.jpg) no-repeat center center;*/
+    background-image: url('../img/contact us.jpg');
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+#contact-sec .overlay {
+    background: rgba(0, 0, 0, 0.36);
+    min-height: 550px;
+}
+
+#contact-sec h1 {
+    color: #fff;
+}
+
+#contact-sec .form-control {
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+}
+
+
+/*=====================================
+  Footer STYLES 
+  ===================================*/
+
+#footer {
+    padding: 5px 20px;
+    background-color: #dd4b39;
+    text-align: right;
+    color: #fff;
+    font-size: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #a0918e;
+    background-color: transparent;
+}
+
+.fa-4x {
+    font-size: 2.3em;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: #e6e6e6 !important;
+}
+
+.navbar-toggle {
+    margin-right: 40px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #dd4b39;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #dd4b39;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #e6e6e6;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 0px solid #fff;
+}
+
+
+/*-----------*/
+
+#header {
+    padding: 20px 0;
+    height: 84px;
+    transition: all 0.5s;
+    z-index: 997;
+    background: #fff;
+    box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+    background-image: linear-gradient(to right top, #903ec6, #8a34cf, #812ad8, #761fe1, #6712eb);
+    background: linear-gradient(to right, #fff, #fff);
+}
+
+.nav-menu,
+.nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-mediaIcon {
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
+}
